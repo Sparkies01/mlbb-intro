@@ -1,4 +1,5 @@
 .DS_Store
 files/
 logs/
+hosted_assets/
 *.part
