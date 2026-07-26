@@ -6,12 +6,21 @@ ML PRO 4.1.3.
 ## Repository files
 
 - `catalog.json` — complete catalog with English titles and download links
-  pointing to this repository's `v4.1.3` Release assets
+  pointing to this repository's Release assets
 - `catalog_links.csv` — spreadsheet-friendly catalog and source links
 - `download_manifest.tsv` — manifest of unique downloaded packages
 
-The 440 ZIP packages are published as assets on the `v4.1.3` GitHub Release
-rather than committed to Git history.
+Binary content is published as GitHub Release assets rather than committed to
+Git history:
+
+- `v4.1.3` — 440 ZIP packages
+- `v4.1.3-images` — 401 recovered catalog images and 6 category fallbacks
+- `v4.1.3-previews` — 411 recovered video and audio previews
+
+All non-empty `image`, `file_sc`, and `video_priview` catalog fields now point
+to releases in `Sparkies01/mlbb-intro`. Dead image sources use a category
+fallback. Ten catalog records whose YouTube previews were private or dead now
+have an empty preview field.
 
 ## Categories
 
