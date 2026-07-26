@@ -5,7 +5,8 @@ ML PRO 4.1.3.
 
 ## Repository files
 
-- `catalog.json` — complete catalog response
+- `catalog.json` — complete catalog with English titles and download links
+  pointing to this repository's `v4.1.3` Release assets
 - `catalog_links.csv` — spreadsheet-friendly catalog and source links
 - `download_manifest.tsv` — manifest of unique downloaded packages
 
